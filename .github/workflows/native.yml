@@ -98,12 +98,6 @@ jobs:
           # Upx support (win): only<22, see https://github.com/oracle/graal/issues/4340
           # AWT support (win & mac): only Liberica>22 see https://bell-sw.com/announcements/2022/08/05/liberica-native-image-kit-22-2-0-and-21-3-3-builds-are-out/#create-a-native-image-for-swingset2-app-linux-and-macos
           # Runner: no latest for better compatibility
-          - runner: ubuntu-20.04
-            os: Linux
-            jdk-suffix: linux-amd64.tar.gz
-          - runner: macOS-latest
-            os: MacOS
-            jdk-suffix: macos-amd64.tar.gz
           - runner: windows-latest
             os: Windows
             jdk-suffix: windows-amd64.zip
